@@ -49,6 +49,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 img {
 	max-width: 100%;
+    padding-bottom: 20px;
 }
 
 body {
@@ -56,6 +57,7 @@ body {
     background-color:var(--colorEcru);
     color:var(--colorBleu);
     margin:20px;
+    
  }
  h1 a, h1{
     font-size: var(--font-huge);
@@ -68,4 +70,5 @@ a{
 }
 p{
     color:black;
+    padding-bottom:20px;
 }
