@@ -14,8 +14,52 @@ Text Domain: ws3 Rachel Crevoisier
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+:root{
+    /* Couleurs */
+    --colorEcru : #e9e6e1;
+    --colorBeigeFonce : #c4b5a0;
+    --colorBleu : #2b475c;
+    --colorVert : #5e8a75;
+    
+    /* Polices */
+    --font-base: Verdana, Geneva, Tahoma, sans-serif;
+	
+	--miniature:   9;
+	--shortest:   12;
+	--short:      14;
+	--current:    16;
+	--tall:       24;
+	--taller:     32;
+	--tallest:    40;
+	--huge:       60;
+
+	--line-height-perfect:      1em;
+	--line-height-tightest:     1.26875em;
+	--line-height-tight:        1.54285em;
+	--line-height-normal:       2em;
+	--line-height-loose:        3.3125em;
+	--line-height-looser:       4.2em;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
 body {
-    background-color:rgb(90, 95, 115);
-    color:white;
+    font-family: var(--font-base);
+    background-color:var(--colorEcru);
+    color:var(--colorBleu);
     margin:20px;
  }
+ h1 {
+    font-size: var(--font-huge);
+    margin-top:30px;
+    margin-bottom:12px;
+    color:var(--colorVert);
+}
