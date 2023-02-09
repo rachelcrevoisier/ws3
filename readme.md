@@ -1,6 +1,8 @@
 #Exercice #1
 Installation de Wordpress et création de thème
+
 Auteur: Rachel Crevoisier
+
 ##Objectifs
 Installer WP
 - Créer un thème simple
