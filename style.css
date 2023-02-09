@@ -57,9 +57,15 @@ body {
     color:var(--colorBleu);
     margin:20px;
  }
- h1 {
+ h1 a, h1{
     font-size: var(--font-huge);
     margin-top:30px;
     margin-bottom:12px;
     color:var(--colorVert);
+}
+a{
+    text-decoration: none;
+}
+p{
+    color:black;
 }
