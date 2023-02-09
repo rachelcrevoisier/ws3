@@ -12,5 +12,7 @@
         <h1><?php bloginfo("name"); ?></h1>
         <h2><?php bloginfo("description"); ?></h2>
         <h2><?php bloginfo("url"); ?></h2>
+
+        <h1><a href="<?php bloginfo("url"); ?>" target="_blank"><?php bloginfo("name"); ?></a></h1>
     </header>
     
