@@ -16,9 +16,18 @@ add_theme_support('html5',
                    'gallery','caption'
                         )
                 );
-
+//Infos logo
 add_theme_support( 'title-tag' );
 add_theme_support( 'custom-logo', array(
     'height' => 150,
     'width'  => 150,
 ));
+
+//Menu
+function enregistrement_des_menus(){
+    register_nav_menus( array(
+        'menu_entete' =>'Menu entête',
+        'menu_footer'  =>'Menu pied de page',
+    ) );
+}
+add_action( 'after_setup_theme', 'enregistrement_des_menus', 0 );
