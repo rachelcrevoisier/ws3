@@ -1,7 +1,9 @@
 # Exercice #1
 
 Installation de Wordpress et création de thème
+
 Auteur: Rachel Crevoisier
+
 Lien : https://aecweb7.sg-host.com/
 
 ___
