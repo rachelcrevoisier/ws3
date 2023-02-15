@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,17 @@
     <title>Document</title>
     <?php wp_head();?>
 </head>
+
 <body>
     <header>
-        <h1><?php bloginfo("name"); ?></h1>
-        <h2><?php bloginfo("description"); ?></h2>
+        <?php wp_nav_menu(array(
+            'menu'=>'entete',
+            'container'=>'nav'
+            
+        ));?>
+        <h2><?php bloginfo("description"); ?>
+        </h2>
         <h2><?php bloginfo("url"); ?></h2>
 
         <h1><a href="<?php bloginfo("url"); ?>" target="_blank"><?php bloginfo("name"); ?></a></h1>
     </header>
-    
