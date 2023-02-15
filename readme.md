@@ -1,9 +1,9 @@
-#Exercice #1
+# Exercice #1
 Installation de Wordpress et création de thème
-
 Auteur: Rachel Crevoisier
-
-##Objectifs
+Lien : https://aecweb7.sg-host.com/
+___
+## Objectifs
 Installer WP
 - Créer un thème simple
 - Créer une structure Sass
