@@ -1,9 +1,5 @@
-##Exercice #1
-Installation de Wordpress et création de thème
-Auteur: Rachel Crevoisier
-Objectifs
-Installer WP
-Créer un thème simple
-Créer une structure Sass
-Créer un minimum de 10 commits
-Déployer le site local vers un serveur distant
+# Exercice #2
+
+## Améliorer la structure générale du thème
+
+
