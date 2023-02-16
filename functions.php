@@ -23,6 +23,9 @@ add_theme_support( 'custom-logo', array(
     'width'  => 150,
 ));
 
+//test exercice2
+
+
 //Menu
 function enregistrement_des_menus(){
     register_nav_menus( array(
