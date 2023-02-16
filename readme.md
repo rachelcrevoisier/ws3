@@ -3,6 +3,7 @@
 Installation de Wordpress et création de thème
 
 Auteur: Rachel Crevoisier
+<<<<<<< Updated upstream
 
 Lien : https://aecweb7.sg-host.com/
 
@@ -16,3 +17,5 @@ Installer WP
 - Ajout d'articles dans wp pour affichage sur la page d'accueil
 - Modif du content dans la page d'accueil par the_excerpt(); pour n'avoir qu'un résumé de l'article
 
+=======
+>>>>>>> Stashed changes
