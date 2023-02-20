@@ -11,12 +11,17 @@
 
 <body>
     <header>
+<<<<<<< Updated upstream
         <?php the_custom_logo() ?>
         <?php wp_nav_menu(array(
+=======
+        <section class='logomenu'>
+            <?php wp_nav_menu(array(
+>>>>>>> Stashed changes
             'menu'=>'entete',
             'container'=>'nav'
             
-        ));?>
+        ));?></section>
         <h2><?php bloginfo("description"); ?>
         </h2>
         <h2><?php bloginfo("url"); ?></h2>

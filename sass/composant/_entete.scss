@@ -1,0 +1,25 @@
+.logomeu{
+    display: flex;
+}
+
+.menu-entete-container{
+background-color: var(--colorBleu);
+padding:20px;
+padding: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+.menu{//ul
+    display:flex;
+    list-style: none;
+    gap:20px;
+    
+.menu-item{//li
+      font-size: 18px;      
+a{
+text-decoration: none;
+color:white; 
+}
+}
+}
+}
