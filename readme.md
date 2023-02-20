@@ -1,4 +1,4 @@
-# Exercice #1
+# Exercice #2
 
 Installation de Wordpress et création de thème
 
