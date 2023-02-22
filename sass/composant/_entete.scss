@@ -1,28 +1,34 @@
-<<<<<<< HEAD
-.logomeu{
+.site__entete{
+
+}
+
+.logomenu {
     display: flex;
+    background-color: var(--colorBleu);
+    justify-content: space-between;
+    align-items: center;
 }
 
-=======
->>>>>>> exercice1
-.menu-entete-container{
-background-color: var(--colorBleu);
-padding:20px;
-padding: 20px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
-.menu{//ul
-    display:flex;
-    list-style: none;
-    gap:20px;
+.menu-entete-container {
     
-.menu-item{//li
-      font-size: 18px;      
-a{
-text-decoration: none;
-color:white; 
-}
-}
-}
+    padding-right:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+    .menu {
+        //ul
+        display: flex;
+        list-style: none;
+        gap: 20px;
+
+        .menu-item {
+            //li
+            font-size: 18px;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
 }

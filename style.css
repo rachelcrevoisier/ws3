@@ -372,10 +372,15 @@ html {
   box-sizing: border-box;
 }
 
-.menu-entete-container {
+.logomenu {
+  display: flex;
   background-color: var(--colorBleu);
-  padding: 20px;
-  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-entete-container {
+  padding-right: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .menu-entete-container .menu {
