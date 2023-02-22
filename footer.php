@@ -1,11 +1,12 @@
-<!-- template footer -->
+<?php
+/**
+* Template footer.php
+*/
+?>
 <footer>
-    <h3>footer</h3>
-
+    <h3>Pied de page</h3>
 </footer>
-
-<!-- Mise en place de la barre d'admin wp en haut de la page -->
-<?php wp_footer();?>
-
+<?php wp_footer(); ?>
 </body>
+
 </html>
