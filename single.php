@@ -2,8 +2,8 @@
 
 <?php get_header();?>
 <main>
-<a href="<?php bloginfo("url"); ?>" >
-<?php 
+    <a href="<?php bloginfo("url"); ?>">
+        <?php 
 if (have_posts()):
     
         the_title("<h1>", "</h1>");
@@ -11,7 +11,7 @@ if (have_posts()):
     
 endif;
 ?>
-</a> 
+    </a>
 
 </main>
 <?php get_footer();?>
