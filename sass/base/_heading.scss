@@ -41,7 +41,12 @@ h5,
 h6 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+    text-decoration: none;
+}
 p {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
