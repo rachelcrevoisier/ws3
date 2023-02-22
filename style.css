@@ -410,6 +410,13 @@ h6 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  text-decoration: none;
+}
+
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -419,6 +426,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--colorBleu);
 }
 
 .menu-entete-container {
@@ -436,10 +444,13 @@ p {
 }
 .menu-entete-container .menu .menu-item a {
   padding: 3px 5px;
-  color: #555;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .menu-entete-container .menu .menu-item a:hover {
-  color: #0f0;
+  color: white;
 }
 
 .blocflex {
@@ -450,6 +461,33 @@ p {
 .blocflex article {
   margin: 10px;
   padding: 5px;
-  border: 1px solid #aaa;
   flex: 1 0 300px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.blocflex article a {
+  color: var(--colorVert);
+}
+
+:root {
+  /* Couleurs */
+  --colorEcru: #e9e6e1;
+  --colorBeigeFonce: #c4b5a0;
+  --colorBleu: #2b475c;
+  --colorVert: #5e8a75;
+  /* Polices */
+  --font-base: Verdana, Geneva, Tahoma, sans-serif;
+  --miniature: 9;
+  --shortest: 12;
+  --short: 14;
+  --current: 16;
+  --tall: 24;
+  --taller: 32;
+  --tallest: 40;
+  --huge: 60;
+  --line-height-perfect: 1em;
+  --line-height-tightest: 1.26875em;
+  --line-height-tight: 1.54285em;
+  --line-height-normal: 2em;
+  --line-height-loose: 3.3125em;
+  --line-height-looser: 4.2em;
 }/*# sourceMappingURL=style.css.map */
