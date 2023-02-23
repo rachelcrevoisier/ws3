@@ -1,9 +1,8 @@
-Exercice #1
-Installation de Wordpress et création de thème
-Auteur: Eddy Martin
-Objectifs
-Installer WP
-Créer un thème simple
-Créer une structure Sass
-Créer un minimum de 10 commits
-Déployer le site local vers un serveur distant
+# Exercice #2
+Développer un thème de plusieurs modules
+tel que :
+- front-page.php
+- single.php
+- Le site contiendra un début d'extension
+
+Lien vers site : https://aecweb7.sg-host.com/   
