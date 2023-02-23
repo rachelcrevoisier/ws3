@@ -468,6 +468,15 @@ p {
   color: var(--colorVert);
 }
 
+.recherche article {
+  background-color: lightgray;
+  margin: 10px;
+}
+.recherche article h5 {
+  text-decoration: none;
+  color: var(--colorBleu);
+}
+
 :root {
   /* Couleurs */
   --colorEcru: #e9e6e1;
