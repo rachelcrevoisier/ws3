@@ -477,6 +477,14 @@ p {
   color: var(--colorBleu);
 }
 
+.lecturearticle {
+  margin: 20px;
+}
+.lecturearticle h1 {
+  text-decoration: none;
+  color: var(--colorBleu);
+}
+
 :root {
   /* Couleurs */
   --colorEcru: #e9e6e1;

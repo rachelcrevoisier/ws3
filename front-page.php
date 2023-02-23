@@ -14,7 +14,7 @@ get_header() ?>
                 //the_permalink(); ?>
         <article>
             <h3><a href="<?php the_permalink(); ?>"><?= get_the_title();  ?> </a></h3>
-            <p><?php  echo wp_trim_words(get_the_excerpt(), 4); ?></p>
+            <?=wp_trim_words(the_excerpt(),20);?>
         </article>
         <?php endwhile; ?>
         <?php endif; ?>
