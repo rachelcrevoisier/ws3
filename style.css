@@ -426,7 +426,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--colorBleu);
 }
 
 .menu-entete-container {
@@ -489,7 +488,7 @@ p {
 .site__entete {
   grid-area: header;
   padding: 1rem clamp(1rem, 3vw, 20rem);
-  background-color: antiquewhite;
+  background-color: var(--colorBleu);
 }
 
 .site__main {
@@ -500,7 +499,7 @@ p {
 
 .site__footer {
   grid-area: footer;
-  background-color: antiquewhite;
+  background-color: var(--colorBleu);
 }
 
 .site__aside {
@@ -513,6 +512,12 @@ p {
   grid-template-columns: auto;
   grid-template-areas: "header" "main" "footer";
   row-gap: 50px;
+}
+@media screen and (min-width: 1000px) {
+  .site {
+    grid-template-columns: 20% auto;
+    grid-template-areas: "header header" "aside main" "footer footer";
+  }
 }
 
 :root {
