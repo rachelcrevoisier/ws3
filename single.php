@@ -3,7 +3,7 @@
     Modèle article représente le modèle par défaut du thème
 */
 get_header() ?>
-<main>
+<main class="site__main">
     <section class='lecturearticle'>
         <?php 
 if (have_posts()):

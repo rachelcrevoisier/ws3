@@ -1,7 +1,7 @@
 <!-- Modele.php représente le modèle par défaut du theme -->
 
 <?php get_header();?>
-<main>
+<main class="site__main">
     <section class="recherche">
         <?php 
             if (have_posts()):

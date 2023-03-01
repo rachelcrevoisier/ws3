@@ -29,6 +29,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "composant/recherche";
 @import "composant/article";
 
+/* -------------------------- LAYOUT */
+@import "layout/aside-contenu";
+
 :root {
     /* Couleurs */
     --colorEcru: #e9e6e1;
