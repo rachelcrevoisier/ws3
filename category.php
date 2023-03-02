@@ -13,12 +13,10 @@
       $query = new WP_Query( $args );
       if ( $query->have_posts() ) :
          while ( $query->have_posts() ) : $query->the_post(); ?>
-        <article>
-            <h3><a href="<?php the_permalink(); ?>"> <?= get_the_title(); ?></a></h3>
-            <p><?= wp_trim_words(get_the_excerpt(), 15) ?></p>
-        </article>
-        <?php endwhile; ?>
-        <?php endif;
+        <?php get_template_part("template-parts/categorie",$category->slug)?>
+
+
+        <?php endwhile; ?> <?php endif;
       wp_reset_postdata();?>
     </section>
 </main>
