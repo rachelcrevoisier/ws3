@@ -50,4 +50,23 @@ if (    $query->is_home() // si page d'accueil
   }
  }
  add_action( 'pre_get_posts', 'cidweb_modifie_requete_principal' );
+
+/**
+ * Permet de modifier les titres du menu "cours"
+ * @param $titre : titre du choix menu
+ * @param $item : le choix global
+ * @param $args : Objet qui represente la structure de menu
+ * @param $depeth : Niveau des sous menu
+ */
+
+function perso_menu_item_title($title, $item, $args)
+{
+    // Remplacer 'nom_de_votre_menu' par l'identifiant de votre menu
+    if ($args->menu == 'cours') {
+        // Modifier la longueur du titre en fonction de vos besoins
+        $title = wp_trim_words($title, 3, ' ... ');
+    }
+    return $title;
+}
+add_filter('nav_menu_item_title', 'perso_menu_item_title', 10, 3);
                    
