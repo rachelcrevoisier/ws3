@@ -1,16 +1,16 @@
 <?php
 
 /**
-    Modèle index.php représente le modèle par défaut du thème
+ *    Modèle index.php représente le modèle par défaut du thème
  */
 get_header() ?>
 <main class="site__main">
     <code>front-page.php</code>
-    <section class=" blocflex">
+
+    <section class="blocflex">
         <?php
         if (have_posts()) :
             while (have_posts()) : the_post(); ?>
-
         <?php
                 $ma_categorie = "note-wp";
                 if (in_category('galerie')) {

@@ -1,7 +1,8 @@
 <?php
+
 /**
-* Template footer.php
-*/
+ * Template footer.php
+ */
 ?>
 <footer class="site__footer">
     <h3>Pied de page</h3>

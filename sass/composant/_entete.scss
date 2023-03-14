@@ -1,17 +1,23 @@
-
+.site__entete {}
 
 .logomenu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-       
 
 }
 
+.menusearch {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
 
 .menu-entete-container {
-    flex: 1;
+
 
     .menu {
         //ul 
@@ -19,7 +25,7 @@
         justify-content: flex-end;
         flex-wrap: wrap;
         list-style-type: none;
-        margin-left: auto;
+        // margin-left : auto;
 
         .menu-item {
             // li
@@ -27,14 +33,11 @@
 
             a {
                 padding: 3px 5px;
-                color: white;
-                text-decoration: none;
-                font-size: 25px;
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #555;
             }
 
             a:hover {
-                color:white;
+                color: #0f0;
             }
 
         }
