@@ -5,7 +5,7 @@ Mise en page avec display: grid
 .site__entete {
     grid-area: header;
     padding: 1rem clamp(1rem, 3vw, 20rem);
-    background-color: antiquewhite;
+    background-color: var(--colorBleu);
 }
 
 .site__main {
@@ -16,12 +16,12 @@ Mise en page avec display: grid
 
 .site__footer {
     grid-area: footer;
-    background-color: antiquewhite;
+    background-color: var(--colorBleu);
 }
 
 .site__aside {
     grid-area: aside;
-    background-color: rgb(47, 148, 210);
+    background-color: var(--colorEcru);
 }
 
 /* body ou un conteneur globale */

@@ -437,7 +437,7 @@ p {
 
 .menu-entete-container .menu {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex-wrap: wrap;
   list-style-type: none;
 }
@@ -446,10 +446,13 @@ p {
 }
 .menu-entete-container .menu .menu-item a {
   padding: 3px 5px;
-  color: #555;
+  color: var(--colorBeigeFonce);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .menu-entete-container .menu .menu-item a:hover {
-  color: #0f0;
+  color: white;
 }
 
 .blocflex {
@@ -501,7 +504,7 @@ Mise en page avec display: grid
 .site__entete {
   grid-area: header;
   padding: 1rem clamp(1rem, 3vw, 20rem);
-  background-color: antiquewhite;
+  background-color: var(--colorBleu);
 }
 
 .site__main {
@@ -512,12 +515,12 @@ Mise en page avec display: grid
 
 .site__footer {
   grid-area: footer;
-  background-color: antiquewhite;
+  background-color: var(--colorBleu);
 }
 
 .site__aside {
   grid-area: aside;
-  background-color: rgb(47, 148, 210);
+  background-color: var(--colorEcru);
 }
 
 /* body ou un conteneur globale */

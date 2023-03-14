@@ -22,7 +22,7 @@
     .menu {
         //ul 
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         flex-wrap: wrap;
         list-style-type: none;
         // margin-left : auto;
@@ -33,11 +33,14 @@
 
             a {
                 padding: 3px 5px;
-                color: #555;
+                color: var(--colorBeigeFonce);
+                text-decoration: none;
+                font-size: 25px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
 
             a:hover {
-                color: #0f0;
+                color: white;
             }
 
         }
